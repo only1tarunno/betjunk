@@ -1,0 +1,101 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .cs-menu {
+        margin: 20px 0;
+        gap: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .hero-btn-1,
+    .hero-btn-2 {
+        padding: 16px 40px;
+        font-size: 16px;
+    }
+
+    .promotion-cards {
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 1080px) {}
+
+@media (max-width: 991px) {
+    #left-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #left-nav .nav-item {
+        width: 48%;
+    }
+
+    .py-20 {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .marquee-text {
+        font-size: 20px;
+
+    }
+
+    .marquee-img {
+        width: 20px;
+    }
+        .promo-view-all-btn {
+            margin-top: 20px;
+        }
+}
+
+@media (max-width: 575px) {
+    .py-20 {
+        padding: 40px 0;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #left-nav .nav-item {
+        width: 100%;
+    }
+
+    .search-icon {
+        width: 100%;
+    }
+
+    .cs-menu li a {
+        padding: 4px 10px !important;
+        border-radius: 4px;
+    }
+
+    .cs-menu li a:hover {
+        background-color: #eb4a35;
+        color: #fff;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .promotion-top p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 390px) {
+    .hero {
+        background-position: bottom center;
+    }
+}
