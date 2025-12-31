@@ -1,0 +1,23 @@
+*,
+p,
+ul {
+    margin: 0
+}
+body {
+    font-family: "Inter Variable";
+    /* font-family: "Xunga Variable Top"; */
+}
+:root {
+    --cs-primary: #C63926;
+    --cs-secondary: #365253;
+    --cs-tertiary: #5E7575;
+    --cs-white: #ffffff;
+    --cs-black: #000;
+    --cs-button: #2E3333;
+}
+.header{
+    background-color: var(--cs-secondary);
+}
+.navbar{
+    background-color: transparent;
+}
