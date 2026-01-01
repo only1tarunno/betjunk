@@ -17,9 +17,11 @@ body {
     --cs-black: #000;
     --cs-button: #2E3333;
 }
-h2{
+
+h2 {
     font-size: 48px;
 }
+
 a {
     text-decoration: none;
 }
@@ -248,13 +250,13 @@ a {
     margin-bottom: 40px;
 }
 
-.promotion-top h2 {
+.section-title {
     font-weight: 600;
     font-family: "Xunga Variable Top";
     letter-spacing: 2px;
 }
 
-.promotion-top p {
+.section-subtitle {
     font-size: 20px;
     font-weight: 400;
     margin-top: 16px;
@@ -407,4 +409,190 @@ a {
 
 .promo-view-all-btn img {
     max-width: 20px;
+}
+
+/* winner  */
+.winner {
+    background: #0E1718;
+}
+
+.winners-table {
+    --bs-table-bg: transparent;
+    border-color: #ffffff0d;
+    border-radius: 16px;
+    overflow: hidden;
+    border-left: 1px solid #ffffff17;
+    border-right: 1px solid #ffffff17;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.winners-table__head {
+    background: #262E2F;
+}
+
+.winners-table__head tr {}
+
+.winners-table__head tr th {
+    font-size: 12px;
+    color: #ffffff8c;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.winners-table__head tr th:first-child,
+.winners-table__body tr td:first-child {
+    padding-left: 32px;
+}
+
+.winners-table__body {}
+
+.winners-table__body tr {
+    background: #182021;
+}
+
+.winners-table__body tr td {
+    padding: 20px 0;
+    vertical-align: middle;
+}
+
+.player {}
+
+.player__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.player__wrapper img {
+    width: 44px;
+}
+
+.player__info {
+    flex-grow: 1;
+}
+
+.player__name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.player__id {
+    font-size: 12px;
+    color: #ffffff6b;
+}
+
+.game {}
+
+.game__info {}
+
+.game__title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.game__type {
+    font-size: 12px;
+    color: #ffffff6b;
+}
+
+.amount {}
+
+.amount__value {
+    margin-bottom: 0;
+    color: #EE9B00;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 11px 18px;
+    border: 1px solid #ee9b0045;
+    background: #ee9b001f;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.time-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.time span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #EE9B00;
+}
+
+.time__label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff94;
+}
+
+.winners-table__footer {
+    background: #262E2F;
+}
+
+.winners-table__footer tr {}
+
+.winners-table__footer tr td {
+    padding: 20px 16px;
+}
+
+.load-more-btn {
+    background: #d34333;
+    padding: 12px 34px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.load-more-btn:hover,
+.promo-view-all-btn:hover {
+    background: #a82a1c;
+}
+
+.winner-stats-row {
+    margin-top: 20px;
+    row-gap: 20px;
+}
+
+.winner-stats {
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+}
+
+.winner-stats1 {
+    border: 1px solid #c639264f;
+    background: #c6392629;
+}
+
+.winner-stats2 {
+    background: #ee9b002e;
+    border: 1px solid #ee9b0040;
+}
+
+.winner-stats3 {
+    background: #60767024;
+    border: 1px solid #60767040;
+}
+
+.winner-stats__title {
+    font-family: "Xunga Variable Top";
+    font-weight: 600;
+    color: #fff;
+    font-size: 36px;  
+    letter-spacing: 3px;
+}
+
+.winner-stats__value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffffb0;
 }
