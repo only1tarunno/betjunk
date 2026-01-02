@@ -79,6 +79,29 @@
     .time__label {
         white-space: nowrap;
     }
+
+    .site-footer__about,
+    .site-footer__links {
+        width: 100%;
+    }
+
+    .site-footer__top {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .site-footer__links-row {
+        row-gap: 30px;
+    }
+
+    .site-footer__payments-logos {
+        flex-wrap: wrap;
+    }
+
+    .site-footer__bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -149,6 +172,38 @@
 
     .sports-card__btn {
         padding: 10px 13px;
+    }
+
+    .ready__content a {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .site-footer__bottom {
+        align-items: flex-start;
+    }
+
+    .site-footer__divider {
+        display: none
+    }
+
+    .site-footer__legal {
+        align-items: flex-start;
+        gap: 8px;
+        flex-direction: column;
+    }
+
+    .site-footer__bottom {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .trusted-summary__rating {
+        width: 100%;
+    }
+
+    .trusted-summary {
+        margin-top: 0px;
     }
 }
 
