@@ -1,6 +1,4 @@
-*,
-p,
-ul {
+gap {
     margin: 0
 }
 
@@ -254,12 +252,12 @@ a {
     font-weight: 600;
     font-family: "Xunga Variable Top";
     letter-spacing: 2px;
+    margin-bottom: 0;
 }
 
 .section-subtitle {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 16px;
 }
 
 .card-body {
@@ -533,6 +531,7 @@ a {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff94;
+    margin-bottom: 0;
 }
 
 .winners-table__footer {
@@ -587,7 +586,7 @@ a {
     font-family: "Xunga Variable Top";
     font-weight: 600;
     color: #fff;
-    font-size: 36px;  
+    font-size: 36px;
     letter-spacing: 3px;
 }
 
@@ -595,4 +594,317 @@ a {
     font-size: 14px;
     font-weight: 500;
     color: #ffffffb0;
+}
+
+/* live casino  */
+.live {
+    background: #0E1718;
+}
+
+.live__header {}
+
+.live__title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: "Xunga Variable Top";
+    margin-bottom: 0px;
+}
+
+.live__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff94;
+    margin-bottom: 0;
+}
+
+.live__view-all-btn {
+    text-align: end;
+}
+
+.live__view-all-btn a {
+    border: 1px solid #ffffff38;
+    padding: 12px 26px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.live__view-all-btn a:hover {
+    border: 1px solid var(--cs-primary);
+    background: var(--cs-primary);
+}
+
+.live__cards {
+    margin-top: 32px;
+    row-gap: 20px;
+}
+
+.live-card1 {
+    background: url(../images/l1.png);
+}
+
+.live-card2 {
+    background: url(../images/l2.jpg);
+}
+
+.live-card3 {
+    background: url(../images/l3.jpg);
+}
+
+.live-card4 {
+    background: url(../images/l4.jpg);
+}
+
+.live-card5 {
+    background: url(../images/t1.png);
+}
+
+.live-card6 {
+    background: url(../images/t2.jpg);
+}
+
+.live-card7 {
+    background: url(../images/t3.jpg);
+}
+
+.live-card8 {
+    background: url(../images/t4.jpg);
+}
+
+.live-card {
+    min-height: 194px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.live-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+    z-index: 0;
+}
+
+.live-card__badge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--cs-primary);
+    padding: 4px 8px;
+    border-radius: 30px;
+    width: 60px;
+    justify-content: center;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.live-card__status-dot {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.live-card__status-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.live-card__content {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.live-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.live-card__dealer {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffffa3;
+    margin-bottom: 0;
+}
+
+.live-card__viewers {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.live-card__viewer-icon {
+    width: 12px;
+}
+
+.live-card__viewer-count {
+    color: #EE9B00;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* top slots  */
+.top-slot {
+    background: #000;
+}
+
+.live-card__play {}
+
+.live-card__play a {
+    display: inline-block;
+    background: #EE9B00;
+    padding: 8px 22px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.live-card__play a:hover {
+    background: var(--cs-primary);
+}
+
+.top-card {
+    min-height: 250px;
+    background-position: top center;
+}
+
+/* sport-betting  */
+.sport-betting {
+    background: #0C1415;
+}
+
+.sport-cards {
+    margin-top: 32px;
+    row-gap: 20px;
+}
+
+.sports-card {
+    background: #1F2829;
+    border: 1px solid #ffffff24;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.sports-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sports-card-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sports-card__icon {
+    max-width: 42px;
+}
+
+.sports-card__title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff94;
+    margin-bottom: 0;
+}
+
+.sports-card__status {
+    padding: 6px 10px;
+    background: #2B3334;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.sports-card__status-icon {
+    width: 12px;
+}
+
+.sports-card__status-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffffb5;
+}
+
+.sports-card__body {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sports-card__odds {
+    border: 1px solid #ffffff29;
+    border-radius: 12px;
+    padding: 10px 14px;
+    flex-grow: 1;
+}
+
+.sports-card__odds-label {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff91;
+}
+
+.sports-card__odds-value {
+    color: #EE9B00;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 4px 0 0;
+}
+
+.sports-card__action {
+    width: 132px;
+}
+
+.sports-card__btn {
+    background: #C63926;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sports-card__btn:hover {
+    background: #b42d1c;
+}
+
+.sports-card__btn img {}
+
+.sports-card__btn span {
+    font-weight: 700;
+}
+
+.sport-view-all-btn {
+    border: 1px solid #ffffff38;
+    background: #252C2D;
+    transition: all 0.3s ease-in-out;
+}
+
+/* whybet  */
+.whybet {
+    background: #0C1415;
 }

@@ -40,9 +40,10 @@
     .py-20 {
         padding: 60px 0;
     }
-        .winner-stats__title {
-            font-size: 26px;
-        }
+
+    .winner-stats__title {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -54,27 +55,30 @@
     .marquee-img {
         width: 20px;
     }
-        .promo-view-all-btn {
-            margin-top: 20px;
-        }
-                .winners-table__head tr th:first-child,
-                .winners-table__body tr td:first-child {
-                    padding-left: 16px;
-                }
-                .winners-table__head tr th,
-                .winners-table__body tr td {
-                    white-space: nowrap;
-                    padding-right: 10px;
-                }
-        
-                .player__name,
-                .player__id,
-                .game__title,
-                .game__type,
-                .amount__value,
-                .time__label {
-                    white-space: nowrap;
-                }
+
+    .promo-view-all-btn {
+        margin-top: 20px;
+    }
+
+    .winners-table__head tr th:first-child,
+    .winners-table__body tr td:first-child {
+        padding-left: 16px;
+    }
+
+    .winners-table__head tr th,
+    .winners-table__body tr td {
+        white-space: nowrap;
+        padding-right: 10px;
+    }
+
+    .player__name,
+    .player__id,
+    .game__title,
+    .game__type,
+    .amount__value,
+    .time__label {
+        white-space: nowrap;
+    }
 }
 
 @media (max-width: 575px) {
@@ -108,18 +112,44 @@
         font-size: 32px;
         text-align: center;
     }
-.hero-content p{
-    text-align: center;
-}
+
+    .hero-content p {
+        text-align: center;
+    }
+
     .section-subtitle {
         font-size: 16px;
     }
-    .hero-bt-grp{
+
+    .hero-bt-grp {
         justify-content: center;
     }
-        .winner-stats__title {
-            font-size: 36px;
-        }
+
+    .winner-stats__title {
+        font-size: 36px;
+    }
+
+    .live__view-all-btn {
+        text-align: start;
+        margin-top: 14px;
+    }
+
+    .live__title {
+        font-size: 30px;
+    }
+
+    .live__subtitle {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .sports-card__action {
+        width: 117px;
+    }
+
+    .sports-card__btn {
+        padding: 10px 13px;
+    }
 }
 
 @media (max-width: 425px) {}
