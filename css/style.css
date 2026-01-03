@@ -1942,3 +1942,14 @@ ul {
     font-size: 20px;
     font-weight: 700;
 }
+.upcoming-match__load-more-btn{
+    background: #222F2E;
+        border: 1px solid #ffffff1f;
+        padding: 16px 28px;
+        transition: 0.3s all ease-in-out;
+        display: inline-block;
+        text-align: center;
+}
+.upcoming-match__load-more-btn:hover{
+    background: #c63926;
+}
