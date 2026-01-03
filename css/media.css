@@ -6,7 +6,8 @@
         gap: 10px;
     }
 
-    .hero-content h1 ,.sport-hero-content h1{
+    .hero-content h1,
+    .sport-hero-content h1 {
         font-size: 48px;
     }
 
@@ -26,9 +27,21 @@
 }
 
 @media (max-width: 1080px) {
-    .sport-hero__action ,.sport-hero-filter{
-            flex-wrap: wrap;
-        }
+
+    .sport-hero__action,
+    .sport-hero-filter {
+        flex-wrap: wrap;
+    }
+
+    .bet-highlight {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: start;
+    }
+
+    .bet-highlight__card {
+        min-width: 296px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -106,6 +119,9 @@
         flex-direction: column;
         gap: 20px;
     }
+        .bet-highlight__card {
+            border-right-width: 0px;
+        }
 }
 
 @media (max-width: 575px) {
@@ -135,7 +151,8 @@
         color: #fff;
     }
 
-    .hero-content h1,.sport-hero-content h1 {
+    .hero-content h1,
+    .sport-hero-content h1 {
         font-size: 32px;
         text-align: center;
     }
@@ -209,6 +226,12 @@
     .trusted-summary {
         margin-top: 0px;
     }
+
+    .bet-highlight__card {
+        min-width: 276px;
+    }
+
+    
 }
 
 @media (max-width: 425px) {}

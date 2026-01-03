@@ -203,22 +203,102 @@
 
     <!-- hero end  -->
 
-    <!-- marquee  -->
-    <section class="marquee2">
-        <div>
-            <div>
-                <img src="./images/cup2.png" alt="">
+    <!-- bet hightlight   -->
+    <section class="bet-section">
+        <div class="bet-highlight">
+            <!-- single card -->
+            <div class="bet-highlight__card">
+        
+                <div class="bet-highlight__icon">
+                    <img src="./images/cup2.png" class="img-fluid" alt="trophy">
+                </div>
+        
+                <div class="bet-highlight__info">
+                    <h3 class="bet-highlight__player">Player_8492</h3>
+                    <p class="bet-highlight__match">Chelsea vs Arsenal</p>
+                </div>
+        
+                <div class="bet-highlight__amount">
+                    <h4 class="bet-highlight__win">€2,450</h4>
+                    <h6 class="bet-highlight__odds">@4.50</h6>
+                </div>
+        
             </div>
-            <div>
-                <h3>Player_8492</h3>
-                <p>Chelsea vs Arsenal</p>
+            <!-- single card -->
+            <div class="bet-highlight__card">
+        
+                <div class="bet-highlight__icon">
+                    <img src="./images/cup2.png" class="img-fluid" alt="trophy">
+                </div>
+        
+                <div class="bet-highlight__info">
+                    <h3 class="bet-highlight__player">BetMaster_23</h3>
+                    <p class="bet-highlight__match">Lakers vs Warriors</p>
+                </div>
+        
+                <div class="bet-highlight__amount">
+                    <h4 class="bet-highlight__win">€1,890</h4>
+                    <h6 class="bet-highlight__odds">@3.20</h6>
+                </div>
+        
             </div>
-            <div>
-                <h4>€2,450</h4>
-                <h6>@4.50</h6>
+            <!-- single card -->
+            <div class="bet-highlight__card">
+        
+                <div class="bet-highlight__icon">
+                    <img src="./images/cup2.png" class="img-fluid" alt="trophy">
+                </div>
+        
+                <div class="bet-highlight__info">
+                    <h3 class="bet-highlight__player">SportsFan_77</h3>
+                    <p class="bet-highlight__match">Real Madrid vs Atletico</p>
+                </div>
+        
+                <div class="bet-highlight__amount">
+                    <h4 class="bet-highlight__win">€3,200</h4>
+                    <h6 class="bet-highlight__odds">@5.80</h6>
+                </div>
+        
+            </div>
+            <!-- single card -->
+            <div class="bet-highlight__card">
+        
+                <div class="bet-highlight__icon">
+                    <img src="./images/cup2.png" class="img-fluid" alt="trophy">
+                </div>
+        
+                <div class="bet-highlight__info">
+                    <h3 class="bet-highlight__player">Lucky_Winner</h3>
+                    <p class="bet-highlight__match">Djokovic vs Nadal</p>
+                </div>
+        
+                <div class="bet-highlight__amount">
+                    <h4 class="bet-highlight__win">€1,650</h4>
+                    <h6 class="bet-highlight__odds">@2.90</h6>
+                </div>
+        
+            </div>
+            <!-- single card -->
+            <div class="bet-highlight__card bet-highlight__card-last">
+        
+                <div class="bet-highlight__icon">
+                    <img src="./images/cup2.png" class="img-fluid" alt="trophy">
+                </div>
+        
+                <div class="bet-highlight__info">
+                    <h3 class="bet-highlight__player">Player_8492</h3>
+                    <p class="bet-highlight__match">Chelsea vs Arsenal</p>
+                </div>
+        
+                <div class="bet-highlight__amount">
+                    <h4 class="bet-highlight__win">€2,450</h4>
+                    <h6 class="bet-highlight__odds">@4.50</h6>
+                </div>
+        
             </div>
         </div>
     </section>
+
 
     <!-- marquee  -->
     <section class="marquee">
@@ -252,7 +332,8 @@
             <!-- Section Header -->
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <div class="live__header">
+                    <div class="live__header live-match-top">
+                        <span class="live-match-bold"></span>
                         <h3 class="live__title">Live Matches</h3>
                     </div>
                 </div>
@@ -267,46 +348,166 @@
             </div>
 
             <!-- Cards -->
-            <div class="row sport-cards">
-                <!-- single card  -->
+            <div class="row match-cards-row">
+                <!-- single card -->
                 <div class="col-md-6 col-xl-4">
-                    <div>
-                        <div>
-                            <div>
-                                <h4>Premier League</h4>
+                    <div class="match-card">
+            
+                        <!-- header -->
+                        <div class="match-card__header">
+                            <div class="match-card__league">
+                                <h4 class="match-card__league-name">Premier League</h4>
                             </div>
-                            <div>
-                                <a href="#">LIVE</a>
-                                <ul>
-                                    <li><img src="./images/eye.png" alt=""></li>
-                                    <li>45.2K</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Manchester United</h4>
-                                <h5>2</h5>
-                            </div>
-                            <div>
-                                <h4>Liverpool FC</h4>
-                                <h5>1</h5>
-                            </div>
-                        </div>
-                        <div>
-                            <p>Live - 67'</p>
-                            <div>
-                                <div>
-                                    <p>1</p>
-                                    <h3>2.45</h3>
+            
+                            <div class="match-card__meta">
+                                <a href="#" class="match-card__live">LIVE</a>
+            
+                                <div class="match-card__viewers">
+                                    <img src="./images/eye.png" alt="viewers" class="match-card__viewers-icon">
+                                    <span class="match-card__viewers-count">45.2K</span>
                                 </div>
                             </div>
                         </div>
+            
+                        <!-- teams -->
+                        <div class="match-card__teams">
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">Manchester United</h4>
+                                <h5 class="match-card__team-score">2</h5>
+                            </div>
+            
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">Liverpool FC</h4>
+                                <h5 class="match-card__team-score">1</h5>
+                            </div>
+                        </div>
+            
+                        <!-- odds -->
+                        <div class="match-card__footer">
+                            <p class="match-card__time">Live - 67'</p>
+            
+                            <div class="match-card__odds">
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">1</p>
+                                    <h3 class="match-card__odd-value">2.45</h3>
+                                </div>
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">x</p>
+                                    <h3 class="match-card__odd-value">3.20</h3>
+                                </div>
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">2</p>
+                                    <h3 class="match-card__odd-value">2.80</h3>
+                                </div>
+                            </div>
+                        </div>
+            
                     </div>
                 </div>
-                
-
+                <!-- single card -->
+                <div class="col-md-6 col-xl-4">
+                    <div class="match-card">
+            
+                        <!-- header -->
+                        <div class="match-card__header">
+                            <div class="match-card__league">
+                                <h4 class="match-card__league-name">NBA</h4>
+                            </div>
+            
+                            <div class="match-card__meta">
+                                <a href="#" class="match-card__live">LIVE</a>
+            
+                                <div class="match-card__viewers">
+                                    <img src="./images/eye.png" alt="viewers" class="match-card__viewers-icon">
+                                    <span class="match-card__viewers-count">32.8K</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- teams -->
+                        <div class="match-card__teams">
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">LA Lakers</h4>
+                                <h5 class="match-card__team-score">78</h5>
+                            </div>
+            
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">Boston Celtics</h4>
+                                <h5 class="match-card__team-score">82</h5>
+                            </div>
+                        </div>
+            
+                        <!-- odds -->
+                        <div class="match-card__footer">
+                            <p class="match-card__time">Live - Q3 5:32</p>
+            
+                            <div class="match-card__odds">
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">1</p>
+                                    <h3 class="match-card__odd-value">2.95</h3>
+                                </div>
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">2</p>
+                                    <h3 class="match-card__odd-value">1.85</h3>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="col-md-6 col-xl-4">
+                    <div class="match-card">
+            
+                        <!-- header -->
+                        <div class="match-card__header">
+                            <div class="match-card__league">
+                                <h4 class="match-card__league-name">ATP Masters</h4>
+                            </div>
+            
+                            <div class="match-card__meta">
+                                <a href="#" class="match-card__live">LIVE</a>
+            
+                                <div class="match-card__viewers">
+                                    <img src="./images/eye.png" alt="viewers" class="match-card__viewers-icon">
+                                    <span class="match-card__viewers-count">28.5K</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- teams -->
+                        <div class="match-card__teams">
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">Novak Djokovic</h4>
+                                <h5 class="match-card__team-score">6</h5>
+                            </div>
+            
+                            <div class="match-card__team">
+                                <h4 class="match-card__team-name">Carlos Alcaraz</h4>
+                                <h5 class="match-card__team-score">43</h5>
+                            </div>
+                        </div>
+            
+                        <!-- odds -->
+                        <div class="match-card__footer">
+                            <p class="match-card__time">Live - 67'</p>
+            
+                            <div class="match-card__odds">
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">1</p>
+                                    <h3 class="match-card__odd-value">1.75</h3>
+                                </div>
+                                <div class="match-card__odd">
+                                    <p class="match-card__odd-label">2</p>
+                                    <h3 class="match-card__odd-value">2.05</h3>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
             </div>
+
 
         </div>
     </section>
