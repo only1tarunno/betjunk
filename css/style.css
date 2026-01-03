@@ -68,7 +68,7 @@ ul {
 .cs-menu li a:hover,
 .cs-menu li a:focus,
 .nav-active {
-    color: rgb(235, 74, 53);
+    color: rgb(235, 74, 53) !important;
 }
 
 #left-nav {
@@ -781,7 +781,7 @@ ul {
 }
 
 .sport-betting {
-    background: rgb(12, 20, 21);
+    background: #172223;
 }
 
 .sport-cards {
@@ -1627,4 +1627,150 @@ ul {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+}
+
+.top-bet {
+    background: #111A1B;
+}
+
+.sport-betting__trending {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: end;
+}
+
+.sport-betting__trending img {
+    width: 14px;
+}
+
+.sport-betting__trending span {
+    font-size: 14px;
+    color: #ffffff99;
+    font-weight: 700;
+}
+
+.top-bet-cards {
+    margin-top: 24px;
+    row-gap: 20px;
+}
+
+.top-bet-card {
+    background: #212E2D;
+    border-radius: 12px;
+    padding: 17px;
+    border: 1px solid #ffffff24;
+}
+
+.topbet-card__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.topbet-card__info {}
+
+.topbet-card__info h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+
+.topbet-card__info p {
+    color: #ffffff99;
+    font-size: 12px;
+    margin: 0;
+}
+
+.topbet-card__odds {}
+
+.topbet-card__odds h4 {
+    color: #EE9B00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.topbet-card__bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbet-card__progress-bar {
+    display: block;
+    position: relative;
+    height: 8px;
+    background: #364140;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+/* the filled part */
+.topbet-card__progress-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    /* default */
+    background: linear-gradient(90deg, #C63926 0%, #EE9B00 100%);
+    border-radius: 8px;
+    transition: width 0.4s ease;
+}
+
+/* width-only utility classes */
+.topbet-progress1::after {
+    width: 92%;
+}
+
+.topbet-progress2::after {
+    width: 88%;
+}
+
+.topbet-progress3::after {
+    width: 85%;
+}
+
+.topbet-progress4::after {
+    width: 82%;
+}
+
+.topbet-card__percentage-value {
+    font-size: 14px;
+    color: #ffffff99;
+    font-weight: 700;
+    margin: 0;
+    width: 40px;
+}
+
+.single-whybet-us {
+    text-align: center;
+}
+
+.single-whybet-us img {
+    max-width: 36px;
+}
+
+.single-whybet-us p {
+    margin: 10px 0 20px;
+}
+
+.whybetus-top {
+    margin-bottom: 0px;
+}
+
+.signup-ready {
+    background: #F1AE33;
+}
+
+.signup-ready h2 {}
+
+.signup-ready a {
+    color: #EE9B00;
+    padding: 20px 36px;
+    margin-top: 24px;
 }

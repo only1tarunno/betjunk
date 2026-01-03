@@ -119,9 +119,10 @@
         flex-direction: column;
         gap: 20px;
     }
-        .bet-highlight__card {
-            border-right-width: 0px;
-        }
+
+    .bet-highlight__card {
+        border-right-width: 0px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -231,7 +232,15 @@
         min-width: 276px;
     }
 
-    
+    .signup-ready {
+        padding: 30px 16px;
+    }
+
+    .signup-ready a {
+        margin-top: 14px;
+    }
+
+
 }
 
 @media (max-width: 425px) {}
