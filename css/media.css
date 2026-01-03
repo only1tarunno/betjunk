@@ -6,7 +6,7 @@
         gap: 10px;
     }
 
-    .hero-content h1 {
+    .hero-content h1 ,.sport-hero-content h1{
         font-size: 48px;
     }
 
@@ -25,7 +25,11 @@
     }
 }
 
-@media (max-width: 1080px) {}
+@media (max-width: 1080px) {
+    .sport-hero__action ,.sport-hero-filter{
+            flex-wrap: wrap;
+        }
+}
 
 @media (max-width: 991px) {
     #left-nav {
@@ -131,7 +135,7 @@
         color: #fff;
     }
 
-    .hero-content h1 {
+    .hero-content h1,.sport-hero-content h1 {
         font-size: 32px;
         text-align: center;
     }

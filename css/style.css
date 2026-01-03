@@ -66,7 +66,8 @@ ul {
 }
 
 .cs-menu li a:hover,
-.cs-menu li a:focus {
+.cs-menu li a:focus,
+.nav-active {
     color: rgb(235, 74, 53);
 }
 
@@ -1298,4 +1299,123 @@ ul {
     color: #ffffff9c;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* sports page */
+.sport-hero-row {}
+
+.sport-hero__content {}
+
+.sport-hero {
+    background: #172223;
+}
+
+.sport-hero-content {
+    text-align: center;
+}
+
+.sport-hero-content h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    font-family: "Xunga Variable Top";
+}
+
+.sport-hero-content p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffffb5;
+}
+
+.sport-hero__stats-row {
+    margin: 32px 0;
+    row-gap: 20px;
+}
+
+.sport-hero__stat {
+    padding: 17px;
+    background: #253230;
+    border: 1px solid #ffffff2e;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.sport-hero__stat h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #EE9B00;
+}
+
+.sport-hero__stat p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffffad;
+}
+
+.sport-hero__actions-row {}
+
+.sport-hero__action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.sport-hero__btn {
+    background: #222F2E;
+    border: 1px solid #ffffff1f;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #ffffffa1;
+    transition: 0.3s all ease-in-out;
+}
+
+.sport-hero__btn-icon {
+    display: block;
+    width: 18px;
+}
+
+.sport-hero__btn-text {
+    display: block;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.sport-hero__filter-row {
+    margin-top: 20px;
+}
+
+.sport-hero-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sport-hero-filter button {
+    background: #222F2E;
+    border: 1px solid #ffffff1f;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #ffffffa1;
+    transition: 0.3s all ease-in-out;
+    font-size: 14px;
+}
+
+.sport-hero__btn:hover,
+.sport-hero-filter button:hover,
+.sport-hero-btn-active {
+    background: #c63926;
+    color: #fff;
 }
