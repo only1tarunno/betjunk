@@ -61,6 +61,7 @@
     .winner-stats__title {
         font-size: 26px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -123,6 +124,14 @@
     .bet-highlight__card {
         border-right-width: 0px;
     }
+
+    .upcoming-match__details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+        .upcoming-match__odds {
+            margin-top: 0px;
+        }
 }
 
 @media (max-width: 575px) {
@@ -240,7 +249,33 @@
         margin-top: 14px;
     }
 
+    .upcoming-match__bets {
+        align-items: flex-end;
+        gap: 1px;
+        flex-direction: column;
+    }
 
+    .upcoming-match__odd {
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .upcoming-match__odds {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+    }
+.upcoming-match__filter {
+    justify-content: start;
+    margin-top: 12px;
+}
+.sport-betting__trending {
+    justify-content: start;
+    margin-top: 12px;
+}
+.upcoming-match__league h5 {
+    max-width: 81px;
+}
 }
 
 @media (max-width: 425px) {}
@@ -249,4 +284,5 @@
     .hero {
         background-position: bottom center;
     }
+
 }
