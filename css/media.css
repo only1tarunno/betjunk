@@ -1,4 +1,8 @@
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+    .provider-btns {
+            justify-content: flex-start;
+        }
+}
 
 @media (max-width: 1200px) {
     .cs-menu {
@@ -24,6 +28,7 @@
     .promotion-cards {
         row-gap: 20px;
     }
+        
 }
 
 @media (max-width: 1080px) {
