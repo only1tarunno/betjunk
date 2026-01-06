@@ -2070,7 +2070,7 @@ ul {
     color: #fff;
 }
 
-.trending-slots__name span {
+.trending-slots__plays {
     font-size: 12px;
     color: #ffffffa1;
 }
@@ -2530,4 +2530,194 @@ ul {
     color: #EE9B00;
     font-size: 24px;
     font-weight: 700;
+}
+
+.casino-hero-wrapper {
+    background: #293735;
+    padding: 48px;
+    border-radius: 24px;
+    border: 1px solid #ffffff1a;
+}
+
+.casino-hero-row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.casino-hero-content {}
+
+.casino-hero-content h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Xunga Variable Top";
+    letter-spacing: 3px;
+}
+
+.casino-hero-content p {
+    margin: 0;
+    color: #ffffffa6;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.casino-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.casino-hero-stat-card {
+    background: #1A2626;
+    border: 1px solid #ffffff1a;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.casino-hero-stat-card h2 {
+    color: #EE9B00;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+
+.casino-hero-stat-card p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.casino-hero__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.casino-hero__card-inner {
+    border: 1px solid #ffffff1a;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.casino-hero__jackpot {
+    position: relative;
+}
+
+.casino-hero__jackpot-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    position: absolute;
+    width: 100%;
+    top: 8px;
+    left: 0;
+}
+
+.casino-hero__jackpot-amount h3 {
+    color: #EE9B00;
+    font-size: 12px;
+    font-weight: 700;
+    background: #000000a6;
+    padding: 8px 10px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.casino-hero__jackpot-amount h4 {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.casino-hero__video {
+    position: relative;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+}
+
+.casino-hero__video-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.casino-hero__video-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    transition: opacity 0.3s ease;
+}
+
+
+.casino-hero__video-poster {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.casino-hero__video-play {
+    position: relative;
+    z-index: 2;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.casino-hero__video-play:hover {
+    transform: scale(1.1);
+}
+
+
+.casino-hero__video.is-playing .casino-hero__video-overlay {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.casino-hero__game {
+    background: #1a2626;
+    padding: 12px;
+}
+
+.casino-hero__game h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.casino-hero__game p {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff94;
+}
+
+.casino-hero__jackpot-amount> :only-child {
+    margin-left: auto;
+}
+
+.casino-play-btn {
+    margin-top: 24px;
+}
+
+.casino-play-btn a {
+    display: block;
+    text-align: center;
+}
+.live-slider-title{
+    font-family: "Xunga Variable Top";
+    letter-spacing: 2px;
+    font-weight: 500;
 }
