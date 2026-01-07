@@ -207,10 +207,15 @@
     .promotion-hero-innner {
         padding: 20px 20px 64px;
     }
-        .vip-program-cards {
-            grid-template-columns: repeat(2, 1fr);
-    
-        }
+
+    .vip-program-cards {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .terms-row {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -376,6 +381,11 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    .terms-content {
+        flex-direction: column;
+        gap: 24px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -390,6 +400,14 @@
 @media (max-width: 390px) {
     .hero {
         background-position: bottom center;
+    }
+
+    .terms-title {
+        font-size: 20px;
+    }
+
+    .terms-header h2 {
+        gap: 8px;
     }
 
 }

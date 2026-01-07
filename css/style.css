@@ -958,7 +958,7 @@ ul {
 
 .ready,
 .whybet-slot {
-    background: rgb(16, 26, 27);
+    background: #101a1b;
 }
 
 .ready-row {
@@ -3169,36 +3169,220 @@ ul {
     font-weight: 400;
     color: #ffffff8f;
 }
-.active-tour-cards{}
-.tour-card{}
-.tour-card-header{}
-.tour-status{}
-.tour-prize{}
-.tour-prize p{}
-.tour-prize h3{}
-.tour-card-body{}
-.tour-card-body h2{
-    font-family: "xunga";
+
+.active-tournament {
+    background: #101a1b;
 }
-.tour-card-body p{}
-.tour-card-stats{}
-.tour-stat{}
-.tour-stat p{}
-.tour-stat h4{}
-.tour-join-btn{} 
-.tour-join-btn1{}
-.tour-join-btn2{}
-.tour-join-btn:hover {}
-.terms-row{}
-.terms-inner-wrapper{}
-.terms-header{}
-.terms-header h2{}
-.terms-icon{}
-.terms-title{}
-.terms-content{}
-.terms-section{}
-.terms-section-title{}
-.terms-list{}
-.terms-item{}
-.terms-item-icon{}
-.terms-item-text{}
+
+.active-tour-cards {
+    row-gap: 20px;
+}
+
+.tour-card {
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tour-card::after {
+    content: "";
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    right: -64px;
+    top: -64px;
+    background: #ffffff1f;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.tour-card1 {
+    background: linear-gradient(to right, #C63926 0%, #D64536 100%);
+}
+
+.tour-card2 {
+    background: linear-gradient(to right, #607670 0%, #4A5A54 100%);
+}
+
+.tour-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-status {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+}
+
+.tour-prize {
+    color: #fff;
+}
+
+.tour-prize p {
+    color: #ffffffbd;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.tour-prize h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tour-card-body {
+    margin: 24px 0;
+}
+
+.tour-card-body h2 {
+    font-family: "xunga";
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.tour-card-body p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffffd4;
+}
+
+.tour-card-stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.tour-stat {}
+
+.tour-stat p {
+    color: #ffffffd4;
+    margin: 0;
+    font-size: 12px;
+}
+
+.tour-stat h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tour-join-btn {
+    display: block;
+    background: #fff;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 24px;
+    transition: 0.3s all ease-in-out;
+}
+
+.tour-join-btn1 {
+    color: #C63926;
+}
+
+.tour-join-btn2 {
+    color: #607670;
+}
+
+.tour-join-btn:hover {
+    background: #384543;
+    color: #fff;
+}
+
+.terms-row {
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.terms-inner-wrapper {
+    padding: 32px;
+    background: rgb(27, 36, 37);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+}
+
+.terms-header {}
+
+.terms-header h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.terms-icon {
+    width: 24px;
+    display: block;
+}
+
+
+.terms-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.terms-content {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.terms-section {
+    flex-grow: 1;
+}
+
+.terms-section-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.terms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.terms-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.terms-item-icon {
+    width: 5px;
+    display: flex;
+}
+
+.terms-item-icon img {
+    width: 100%;
+}
+
+.terms-item-text {
+    font-size: 14px;
+    color: #ffffffad;
+}
+
+.carousel {
+    z-index: 1;
+}
