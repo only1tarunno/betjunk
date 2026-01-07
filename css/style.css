@@ -3110,3 +3110,95 @@ ul {
     border: none;
     border-radius: 30px;
 }
+
+.promotion-crypto-cards {
+    row-gap: 24px;
+}
+
+.promotion-crypto-section {
+    background-color: #162021;
+}
+
+.vip-program {
+    background-color: #101819;
+}
+
+.vip-program-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.vip-card {
+    padding: 25px;
+    background: rgb(27, 36, 37);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.vip-card-image {
+    width: 64px;
+    margin: 0 auto;
+}
+
+.vip-card-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin: 16px 0 12px;
+}
+
+.vip-card-details {}
+
+.vip-card-details h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.vip-card-details h4 {
+    color: #EE9B00;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.vip-card-details h3 span,
+.vip-card-details h4 span {
+    font-weight: 400;
+    color: #ffffff8f;
+}
+.active-tour-cards{}
+.tour-card{}
+.tour-card-header{}
+.tour-status{}
+.tour-prize{}
+.tour-prize p{}
+.tour-prize h3{}
+.tour-card-body{}
+.tour-card-body h2{
+    font-family: "xunga";
+}
+.tour-card-body p{}
+.tour-card-stats{}
+.tour-stat{}
+.tour-stat p{}
+.tour-stat h4{}
+.tour-join-btn{} 
+.tour-join-btn1{}
+.tour-join-btn2{}
+.tour-join-btn:hover {}
+.terms-row{}
+.terms-inner-wrapper{}
+.terms-header{}
+.terms-header h2{}
+.terms-icon{}
+.terms-title{}
+.terms-content{}
+.terms-section{}
+.terms-section-title{}
+.terms-list{}
+.terms-item{}
+.terms-item-icon{}
+.terms-item-text{}

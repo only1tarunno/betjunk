@@ -119,6 +119,11 @@
         padding: 12px 24px;
         margin-top: 16px;
     }
+
+    .vip-program-cards {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
 }
 
 @media (max-width: 768px) {
@@ -194,12 +199,18 @@
     .all-games-card-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
-                .promotion-hero-innner h1 {
-                    font-size: 32px;
-                }
-                                        .promotion-hero-innner {
-                                            padding: 20px 20px 64px;
-                                        }
+
+    .promotion-hero-innner h1 {
+        font-size: 32px;
+    }
+
+    .promotion-hero-innner {
+        padding: 20px 20px 64px;
+    }
+        .vip-program-cards {
+            grid-template-columns: repeat(2, 1fr);
+    
+        }
 }
 
 @media (max-width: 575px) {
@@ -359,6 +370,11 @@
 
     .all-games-card-wrapper {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .vip-program-cards {
+        grid-template-columns: repeat(1, 1fr);
+
     }
 }
 
