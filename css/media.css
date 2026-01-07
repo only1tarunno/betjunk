@@ -386,6 +386,9 @@
         flex-direction: column;
         gap: 24px;
     }
+        .active-tournament {
+            padding-bottom: 0 !important;
+        }
 }
 
 @media (max-width: 425px) {
