@@ -2,10 +2,12 @@
     .provider-btns {
         justify-content: flex-start;
     }
-         .all-games-card-wrapper {
-             grid-template-columns: repeat(5, 1fr);
-         }
-     .all-games-card-wrapper .casino-hero__video,
+
+    .all-games-card-wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .all-games-card-wrapper .casino-hero__video,
     .all-games-card-wrapper .casino-hero__video-media {
         min-height: auto;
         width: 100%;
@@ -49,7 +51,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
-   
+
 }
 
 @media (max-width: 1080px) {
@@ -92,10 +94,31 @@
         padding: 24px;
         border-radius: 20px;
     }
-        .all-games-card-wrapper {
-            grid-template-columns: repeat(3, 1fr);
-        }
 
+    .all-games-card-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .promotion-hero-innner {
+        padding: 24px 24px 64px 24px;
+    }
+
+    .promotion-hero-innner h1 {
+        margin: 12px 0 2px;
+        font-size: 48px;
+    }
+
+    .promotion-hero-innner p {
+        font-size: 16px;
+
+    }
+
+    .promotion-hero-innner a {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 12px 24px;
+        margin-top: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -167,9 +190,16 @@
     .upcoming-match__odds {
         margin-top: 0px;
     }
-        .all-games-card-wrapper {
-            grid-template-columns: repeat(2, 1fr);
-        }
+
+    .all-games-card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+                .promotion-hero-innner h1 {
+                    font-size: 32px;
+                }
+                                        .promotion-hero-innner {
+                                            padding: 20px 20px 64px;
+                                        }
 }
 
 @media (max-width: 575px) {
@@ -326,9 +356,10 @@
     .casino-hero-content h1 {
         font-size: 36px;
     }
-        .all-games-card-wrapper {
-            grid-template-columns: repeat(1, 1fr);
-        }
+
+    .all-games-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (max-width: 425px) {
