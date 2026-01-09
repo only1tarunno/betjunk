@@ -185,7 +185,11 @@ ul {
 
 .hero-btn-1 {
     background: rgb(214, 69, 54);
-    padding: 26px 50px;
+    background-image: url(../images/signup-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24.5px 55.5px;
     box-shadow: rgb(110, 42, 33) 0px 6px 0px;
     transition: 0.3s ease-in-out;
     font-size: 26px;
@@ -193,12 +197,16 @@ ul {
 }
 
 .hero-btn-1:hover {
-    background: rgb(168, 42, 28);
+    box-shadow: rgb(177, 50, 33) 0px 6px 0px;
 }
 
 .hero-btn-2 {
     background: rgb(96, 118, 112);
-    padding: 26px 50px;
+    background-image: url(../images/login-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24.5px 61px;
     box-shadow: rgb(32, 50, 52) 0px 6px 0px;
     transition: 0.3s ease-in-out;
     font-size: 26px;
@@ -206,7 +214,7 @@ ul {
 }
 
 .hero-btn-2:hover {
-    background: rgb(74, 94, 88);
+    box-shadow: rgb(47, 161, 173) 0px 6px 0px;
 }
 
 .marquee {
